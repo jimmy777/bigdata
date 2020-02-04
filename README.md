@@ -1,6 +1,29 @@
 
 # bigdata
 
+```
+/etc/hosts
+192.168.209.101         node101
+192.168.209.102         node102
+192.168.209.103         node103
+
+
+安装目录
+/bigdata
+
+数据目录
+/data
+
+
+# cat /etc/security/limits.conf
+...
+* soft nofile 65536
+* hard nofile 65536
+* soft nproc  65536
+* hard nproc  65536
+
+```
+
 
 # src
 - apache-flume-1.8.0-bin.tar.gz
