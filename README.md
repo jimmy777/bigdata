@@ -22,6 +22,19 @@
 
 # Hadoop
 
+```
+修改 /bigdata/hadoop/etc/hadoop 配置路径下的文件：
+
+1. core-site.xml
+2. hadoop-env.sh
+3. hdfs-site.xml
+4. mapred-site.xml
+5. slaves
+6. yarn-env.sh
+7. yarn-site.xml
+
+
+```
 
 # Spark
 
