@@ -15,6 +15,10 @@
 
 # Java
 
+```
+编辑 /etc/profile 文件，指定java路径。
+
+```
 
 # Hadoop
 
