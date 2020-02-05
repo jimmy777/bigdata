@@ -64,6 +64,21 @@
 
 # Hive
 
+```
+
+[root@node101 conf]# pwd
+/bigdata/apache-hive-1.2.2-bin/conf
+
+
+修改配置文件
+
+hive-env.sh
+hive-exec-log4j.properties
+hive-log4j.properties
+hive-site.xml
+
+
+```
 
 # Zookeeper
 
