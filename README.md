@@ -57,6 +57,23 @@
 7. yarn-site.xml
 
 
+[root@node101 hadoop]# sbin/start-all.sh
+......
+
+hdfs-website
+http://node101:50070
+
+yarn-website
+http://node101:8088
+
+
+[root@node101 hadoop]# mr-jobhistory-daemon.sh start historyserver
+......
+
+jobhistory-website
+http://node101:19888
+
+
 ```
 
 # Spark
