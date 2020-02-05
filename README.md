@@ -86,6 +86,9 @@ account info
 root
 @WSX3edc
 
+
+mysqld service
+---------------
 # systemctl start mysqld
 
 
@@ -99,6 +102,15 @@ hive-env.sh
 hive-exec-log4j.properties
 hive-log4j.properties
 hive-site.xml
+
+
+hive need mysql-connector
+---------------
+[root@node101 lib]# pwd
+/bigdata/apache-hive-1.2.2-bin/lib
+[root@node101 lib]# ls|grep mysql
+mysql-connector-java-5.1.38.jar
+
 
 ```
 
