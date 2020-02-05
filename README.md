@@ -66,17 +66,39 @@
 
 ```
 
+server 192.168.209.10 install mysql-5.7.29.
+---------------
+
+[root@app01 bigdata]# ls /etc/yum.repos.d/
+CentOS7-Base-163.repo  epel.repo  epel-testing.repo  mysql-community.repo  mysql-community-source.repo
+
+[root@app01 bigdata]# rpm -qa|grep mysql
+mysql-community-common-5.7.29-1.el7.x86_64
+mysql-community-devel-5.7.29-1.el7.x86_64
+mysql-community-libs-5.7.29-1.el7.x86_64
+mysql-community-server-5.7.29-1.el7.x86_64
+mysql57-community-release-el7-10.noarch
+mysql-community-client-5.7.29-1.el7.x86_64
+mysql-community-libs-compat-5.7.29-1.el7.x86_64
+
+account info
+---------------
+root
+@WSX3edc
+
+# systemctl start mysqld
+
+
 [root@node101 conf]# pwd
 /bigdata/apache-hive-1.2.2-bin/conf
 
 
-修改配置文件
-
+hive config files
+---------------
 hive-env.sh
 hive-exec-log4j.properties
 hive-log4j.properties
 hive-site.xml
-
 
 ```
 
