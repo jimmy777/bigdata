@@ -227,6 +227,7 @@ The current implementation, based on Thrift RPC, is an improved version of HiveS
 
 
 - hiveServer2的启动方式有2种：
+
 ```
 $HIVE_HOME/bin/hiveserver2 或者
 $HIVE_HOME/bin/hive --service hiveserver2
