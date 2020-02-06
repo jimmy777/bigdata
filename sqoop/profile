@@ -4,3 +4,4 @@
 # sqoop
 export SQOOP_HOME=/bigdata/sqoop
 export PATH=$PATH:$SQOOP_HOME/bin
+export ACCUMULO_HOME=/data/sqoop/tmp/accumulo
