@@ -988,7 +988,7 @@
   </property>
   <property>
     <name>hive.aux.jars.path</name>
-    <value/>
+    <value>file:///bigdata/hive/hcatalog/share/hcatalog/hive-hcatalog-core-1.2.2.jar</value>
     <description>The location of the plugin jars that contain implementations of user defined functions and serdes.</description>
   </property>
   <property>
