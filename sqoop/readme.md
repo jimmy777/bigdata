@@ -15,7 +15,7 @@ HDFS  -（Load）-> Sqoop  -（Export）->  MySQL
 
 > Sqoop 1 和 Sqoop 2 两个版本，二者截然不同、互不兼容！
 
-sqoop-1.4.7
+- [sqoop-1.4.7 download](https://mirrors.tuna.tsinghua.edu.cn/apache/sqoop/)
 
 ```
 # cp mysql-connector-java-5.1.38.jar $SQOOP_HOME/lib
