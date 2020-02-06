@@ -1,0 +1,12 @@
+
+......
+
+# hive
+export HIVE_HOME=/bigdata/hive
+export HIVE_CONF_DIR=$HIVE_HOME/conf
+export HCAT_HOME=$HIVE_HOME/hcatalog
+export HIVE_AUX_JARS_PATH=$HCAT_HOME/share/hcatalog
+export hive_dependency=$HIVE_HOME/conf:$HIVE_HOME/lib/*:$HCAT_HOME/share/hcatalog/hive-hcatalog-core-1.2.2.jar
+export PATH=$PATH:$HIVE_HOME/bin
+
+......
