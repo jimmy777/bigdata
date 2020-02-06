@@ -1,0 +1,6 @@
+
+......
+
+# sqoop
+export SQOOP_HOME=/bigdata/sqoop
+export PATH=$PATH:$SQOOP_HOME/bin
