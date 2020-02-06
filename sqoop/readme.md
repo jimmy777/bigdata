@@ -70,7 +70,7 @@ mysql> desc teacher;
 
 ## export 命令
 
-# sqoop export -D sqoop.export.records.per.statement=100 --connect jdbc:mysql://192.168.209.10:3306/stu?useSSL=false --username root -P --table teacher_orc --fields-terminated-by ',' --export-dir '/data/sqoop/teacher.db' --batch --update-key tid --update-mode allowinsert;
+# sqoop export -D sqoop.export.records.per.statement=100 --connect jdbc:mysql://192.168.209.10:3306/stu?useSSL=false --username root -P --table teacher_orc --fields-terminated-by ',' --export-dir '/data/sqoop/teacher.db' -m 1 --batch --update-key tid --update-mode allowinsert;
 
 注意：
 -D sqoop.export.records.per.statement=100，表示批处理，每100条数据提交一次；
