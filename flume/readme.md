@@ -22,3 +22,7 @@
 >  apache-flume-1.8.0-bin.tar.gz
 
 1. 单点部署
+
+[root@node101 conf]# pwd
+/bigdata/flume/conf
+[root@node101 conf]# bin/flume-ng agent -n agent1 -c conf -f conf/flume-hdfs.conf -Dflume.root.logger=DEBUG
