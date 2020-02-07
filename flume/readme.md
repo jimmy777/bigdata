@@ -26,3 +26,7 @@
 [root@node101 conf]# pwd
 /bigdata/flume/conf
 [root@node101 conf]# bin/flume-ng agent -n agent1 -c conf -f conf/flume-hdfs.conf -Dflume.root.logger=DEBUG
+
+2. 高可用部署
+
+略。
