@@ -1,0 +1,6 @@
+
+......
+
+# hbase
+export HBASE_HOME=/bigdata/hbase
+export PATH=$PATH:$HBASE_HOME/bin
