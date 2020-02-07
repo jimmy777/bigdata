@@ -1,0 +1,6 @@
+
+......
+# zookeeper
+export ZOOKEEPER_HOME=/bigdata/zookeeper
+export PATH=$PATH:$ZOOKEEPER_HOME/bin
+
