@@ -1,6 +1,6 @@
-
-......
+# ...
 
 # flume
 export FLUME_HOME=/bigdata/flume
 export PATH=$PATH:$FLUME_HOME/bin
+
