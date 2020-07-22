@@ -12,6 +12,9 @@
 // or
 > ./bin/presto-cli --server node101:5050 --catalog mysql --schema system
 
+// web ui
+
+
 ```
 
 # worker
